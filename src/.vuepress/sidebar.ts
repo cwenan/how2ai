@@ -4,18 +4,30 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "案例",
+      text: "AI周刊",
       icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      prefix: "newsletter/",
+      link: "article/",
       children: "structure",
     },
+
     {
-      text: "文档",
-      icon: "book",
-      prefix: "guide/",
+      text: "AI扫盲",
+      icon: "tools",
+      prefix: "resource/",
       children: "structure",
     },
-    "slides",
+
+    {
+      text: "交流",
+      icon: "info",
+      prefix: "other/",
+      children: "structure",
+    },
+
+  
+
+    
+
   ],
 });
